@@ -500,6 +500,12 @@ img {
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 1199px) {
+  .wwd {
+    display: none;
+  }
+}
+
 .wwd-list__item {
   position: relative;
   flex-basis: calc(100% / 3 - 30px);
