@@ -1,0 +1,21 @@
+.social-list {
+  display: flex;
+  justify-content: center;
+  &__item:not(:last-child) {
+    margin-right: 10px;
+  }
+  &__link {
+    width: 44px;
+    height: 44px;
+    background-color: var(--btn-text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--icon-fill-color);
+    transition: background-color var(--duration-cubic);
+  }
+  &__icon {
+    fill: currentColor;
+  }
+}

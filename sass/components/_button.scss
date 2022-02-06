@@ -1,0 +1,20 @@
+.button {
+  font-family: inherit;
+  background: var(--accent-color);
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--btn-text-color);
+  padding: 10px 32px;
+  border: none;
+  transition: background var(--duration-cubic), box-shadow var(--duration-cubic);
+  &:focus,
+  &:hover {
+    background: var(--btn-hover-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}

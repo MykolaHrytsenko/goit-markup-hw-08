@@ -1,0 +1,26 @@
+.wwd-list {
+  &__item {
+    position: relative;
+
+    flex-basis: calc(100% / 3 - 30px);
+  }
+  &__text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 27px;
+
+    font-weight: 700;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--btn-text-color);
+    background-color: var(--wwd-text-background-color);
+  }
+}
