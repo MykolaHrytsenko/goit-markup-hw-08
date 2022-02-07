@@ -504,8 +504,10 @@ img {
   }
 }
 
-.features {
-  padding-bottom: 0;
+@media screen and (min-width: 1200px) {
+  .features {
+    padding-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -517,6 +519,12 @@ img {
 @media screen and (min-width: 1200px) {
   .features-list__item {
     flex-basis: calc(100% / 4 - 30px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .features-list__item:first-child {
+    margin-top: 0;
   }
 }
 
