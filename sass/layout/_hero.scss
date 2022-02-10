@@ -27,11 +27,10 @@
     margin-right: auto;
     margin-bottom: 30px;
 
-    @media screen and (min-width: 1200px) {
+    @include desk {
       font-size: 44px;
       line-height: 1.36;
 
       max-width: 696px;
     }
-  }
 }

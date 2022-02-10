@@ -69,11 +69,11 @@
     margin-right: auto;
   }
 
-  @media screen and (min-width: 480px) {
+  @include tel {
     width: 450px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @include desk {
     width: 528px;
   }
 }
@@ -162,7 +162,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    @media screen and (min-width: 1200px) {
+    @include desk {
       font-size: 14px;
       line-height: 1.71;
     }

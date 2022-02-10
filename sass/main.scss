@@ -1,3 +1,6 @@
+@import "./utils/mixin";
+@import "./utils/variables";
+
 @import "./base/common";
 @import "./base/reset";
 @import "./base/vh";
@@ -19,5 +22,3 @@
 @import "./layout/customers";
 @import "./layout/footer";
 @import "./layout/projects";
-
-@import "./utils/variables";

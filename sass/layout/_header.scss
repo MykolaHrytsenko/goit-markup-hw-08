@@ -17,7 +17,7 @@
       flex-wrap: nowrap;
     }
   }
-  @media screen and (min-width: 1200px) {
+  @include desk {
     &-nav__logo {
       margin-right: 93px;
     }
@@ -65,7 +65,7 @@
     margin-right: 10px;
     fill: currentColor;
   }
-  @media screen and (min-width: 768px) {
+  @include tab {
     flex-direction: column;
     &__item:first-child {
       margin-right: 0;
@@ -80,7 +80,7 @@
       padding-bottom: 0;
     }
   }
-  @media screen and (min-width: 1200px) {
+  @include desk {
     flex-direction: row;
     &__item:first-child {
       margin-right: 30px;
@@ -92,7 +92,7 @@
 .current {
   color: var(--accent-color);
 
-  @media screen and (min-width: 768px) {
+  @include tab {
     position: relative;
     // color: var(--accent-color);
     &::after {

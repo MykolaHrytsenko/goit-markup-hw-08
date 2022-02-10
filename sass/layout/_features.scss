@@ -1,15 +1,15 @@
 .features {
-  @media screen and (min-width: 1200px) {
+  @include desk {
     padding-bottom: 0;
   }
 }
 
 .features-list {
   &__item {
-    @media screen and (min-width: 768px) {
+    @include tab {
       flex-basis: calc(100% / 2 - 30px);
     }
-    @media screen and (min-width: 1200px) {
+    @include desk {
       flex-basis: calc(100% / 4 - 30px);
     }
   }
