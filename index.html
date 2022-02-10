@@ -251,30 +251,61 @@
           <h2 class="title section__title">Чем мы занимаемся</h2>
           <ul class="list wwd-list card-set">
             <li class="wwd-list__item card-set__item">
-              <img
-                src="./images/wwd-img1.jpg"
-                alt="человек работает с компьютером"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/wwd/wwd-img1.jpg    1x,
+                    ./images/wwd/wwd-img1@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+
+                <img
+                  src="./images/wwd/wwd-img1.jpg"
+                  alt="человек работает с компьютером"
+                  class="team-item__img"
+                />
+              </picture>
+
               <p class="wwd-list__text">Десктопные приложения</p>
             </li>
             <li class="wwd-list__item card-set__item">
-              <img
-                src="./images/wwd-img2.jpg"
-                alt="человек работает с ноутбуком"
-                width="370"
-                height="294"
+              <picture>
+                <source
+                  srcset="
+                    ./images/wwd/wwd-img2.jpg    1x,
+                    ./images/wwd/wwd-img2@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+
+                <img
+                  src="./images/wwd/wwd-img2.jpg"
+                  alt="человек работает с ноутбуком"
+                  class="team-item__img"
+                />
+              </picture>
+
               />
               <p class="wwd-list__text">Мобильные приложения</p>
             </li>
             <li class="wwd-list__item card-set__item">
-              <img
-                src="./images/wwd-img3.jpg"
-                alt="человек работает с планшетом"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/wwd/wwd-img3.jpg    1x,
+                    ./images/wwd/wwd-img3@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+
+                <img
+                  src="./images/wwd/wwd-img3.jpg"
+                  alt="человек работает с планшетом"
+                  class="team-item__img"
+                />
+              </picture>
+
               <p class="wwd-list__text">Дизайнерские решения</p>
             </li>
           </ul>
