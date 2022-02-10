@@ -1,19 +1,26 @@
 .header {
-  @media screen and (max-width: 767px) {
-    padding: 16px 15px;
-  }
-
   border-bottom: 1px solid var(--header-border-color);
   &-container,
   &-list,
-  // &-contacts,
   &-nav {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
   }
   &-nav__logo {
-    margin-right: 93px;
+    margin-right: 88px;
+  }
+
+  @media screen and (max-width: 767px) {
+    padding: 16px 15px;
+    &-container {
+      flex-wrap: nowrap;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    &-nav__logo {
+      margin-right: 93px;
+    }
   }
 }
 
