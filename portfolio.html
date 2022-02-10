@@ -69,6 +69,107 @@
           </li>
         </ul>
       </div>
+      <button type="button" class="mob-menu-btn" data-menu-open>
+        <svg
+          width="40px"
+          height="40px"
+          aria-label="Переключатель мобильного меню"
+        >
+          <use
+            class="mob-menu-btn__icon-menu"
+            href="./images/icons.svg#icon-menu"
+          ></use>
+        </svg>
+      </button>
+      <div class="mob-menu is-hidden" data-menu>
+        <button type="button" class="mob-menu-btn" data-menu-close>
+          <svg width="40px" height="40px">
+            <use
+              class="mob-menu-btn__icon-menu-close"
+              href="./images/icons.svg#icon-menu-close"
+            ></use>
+          </svg>
+        </button>
+        <div class="container__mob-menu">
+          <div class="container__top">
+            <ul class="list mob-menu-list">
+              <li class="mob-menu-list__item">
+                <a class="link mob-menu-list__link" href="./index.html"
+                  >Студия</a
+                >
+              </li>
+              <li class="mob-menu-list__item">
+                <a
+                  class="link mob-menu-list__link current"
+                  href="./portfolio.html"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="mob-menu-list__item">
+                <a class="link mob-menu-list__link" href="">Контакты</a>
+              </li>
+            </ul>
+          </div>
+          <div class="container__botoom">
+            <ul class="list mob-menu-list mob-menu-contacts">
+              <li class="mob-menu-contacts__tel">
+                <a
+                  class="link mob-menu-contacts__link"
+                  href="tel:+380961111111"
+                >
+                  +38 096 111 11 11
+                </a>
+              </li>
+              <li class="mob-menu-contacts__mail">
+                <a
+                  class="link mob-menu-contacts__link"
+                  href="mailto:info@devstudio.com"
+                >
+                  info@devstudio.com
+                </a>
+              </li>
+            </ul>
+            <ul class="mob-menu-social-list list">
+              <li class="mob-menu-social-list__item">
+                <a
+                  href=""
+                  class="mob-menu-social-list__link link"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  >Instagram
+                </a>
+              </li>
+              <li class="mob-menu-social-list__item">
+                <a
+                  href=""
+                  class="mob-menu-social-list__link link"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  >Twitter
+                </a>
+              </li>
+              <li class="mob-menu-social-list__item">
+                <a
+                  href=""
+                  class="mob-menu-social-list__link link"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  >Facebook
+                </a>
+              </li>
+              <li class="mob-menu-social-list__item">
+                <a
+                  href=""
+                  class="mob-menu-social-list__link link"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  >LinkedIn
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!-- Main -->
@@ -482,5 +583,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
