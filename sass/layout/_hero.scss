@@ -1,5 +1,12 @@
 .hero {
-  background-color: var(--first-background-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  text-align: center;
+  padding-top: 118px;
+  padding-bottom: 118px;
+
   background-image: linear-gradient(
       var(--hero-gradient-color),
       var(--hero-gradient-color)
@@ -31,6 +38,9 @@
     }
   }
   @include desk {
+    padding-top: 200px;
+    padding-bottom: 200px;
+
     background-image: linear-gradient(
         var(--hero-gradient-color),
         var(--hero-gradient-color)
@@ -46,14 +56,6 @@
         url(../images/hero/hero-bg@2x.jpg);
     }
   }
-
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover, auto;
-
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
 
   &__title {
     font-weight: 900;
